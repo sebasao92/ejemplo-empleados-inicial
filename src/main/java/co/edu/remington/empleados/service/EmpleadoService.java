@@ -9,6 +9,6 @@ public class EmpleadoService {
 
     public Empleado obtenerEmpleado(String cedula){
 
-        return new Empleado("1234", "Juan", 200000.0);
+        return new Empleado(cedula, "Juan", 200000.0);
     }
 }
